@@ -1,6 +1,7 @@
 import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
 import Selectform from './forme1'; 
+import imgeA from './image'; 
 import React, { useEffect, useState } from 'react';
 import './forme.css';
 
@@ -50,6 +51,7 @@ function FORMAsection() {
 
   return (
     <div className='form'>
+        <imgeA/>
         <h1>INSCRIVEZ MAINTENANT!</h1>
       <Form.Group className="mb-3" controlId="formBasicNom">
         <Form.Control value={nom} onChange={handleNomChange} type="text" placeholder="Entrer votre nom" />
