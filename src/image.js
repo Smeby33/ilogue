@@ -5,10 +5,10 @@ function imgeA() {
   return (
     <>
       <Card>
-        <Card.Img variant="top" img src={myImage} alt="Mon image" />
+        <Card.Img variant="top" src={myImage} alt="Mon image" />
       </Card>
     </>
   );
 }
 
-export default imgeA ;
+export default imgeA;
