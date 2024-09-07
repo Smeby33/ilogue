@@ -52,7 +52,7 @@ function FORMAsection() {
 
   return (
     <div className='form'>
-        <img className='img1'  src="/assets/images/monImage.png" alt="Mon image" />
+        <img className='img1' src={monImage} alt="Mon image" />
         <h1>INSCRIVEZ MAINTENANT!</h1>
       <Form.Group className="mb-3" controlId="formBasicNom">
         <Form.Control value={nom} onChange={handleNomChange} type="text" placeholder="Entrer votre nom" />
